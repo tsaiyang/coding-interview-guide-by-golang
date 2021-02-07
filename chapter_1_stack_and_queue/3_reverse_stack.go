@@ -31,7 +31,7 @@ func reverseStack(stack *[]int) {
     *stack = append(*stack, last)
 }
 
-func testGetAndRemoveLastElement() {
+func testReverseStack() {
     stack := []int{1, 2, 3, 4, 5}
     reverseStack(&stack)
     fmt.Println(stack)
